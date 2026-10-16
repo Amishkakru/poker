@@ -1,0 +1,17 @@
+{
+  "name": "poker",
+  "version": "1.0.0",
+  "description": "Poker - Texas Hold'em for two to six players, with bots. Runs locally or online; players join from a browser.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test",
+    "simulate": "node scripts/simulate.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
