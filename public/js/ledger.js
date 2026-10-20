@@ -1,6 +1,6 @@
 // Right-hand ledger: what happened (blinds, bets, streets, results) and the standings.
 
-import { store, game, seatName, me, SEATS } from './state.js';
+import { store, seatName, me, SEATS } from './state.js';
 import {
   $, esc, renderIfChanged, fmt,
 } from './util.js';
@@ -56,7 +56,6 @@ function describe(e) {
 
 export function renderLedger() {
   const snap = store.snap;
-  const G = game();
   const root = $('#ledger');
   if (!snap || snap.stage === 'lobby') { root.innerHTML = ''; return; }
 

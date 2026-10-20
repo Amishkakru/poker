@@ -1,5 +1,8 @@
 # Poker
 
+[![CI](https://github.com/Amishkakru/poker/actions/workflows/ci.yml/badge.svg)](https://github.com/Amishkakru/poker/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 No-limit Texas Hold'em for two to six players, with bots. One small Node server, one dependency, no build step. Play alone against bots, or put it online and send friends a link. Play chips only: nothing is played for money.
 
 It is built in the same family as Kaat (same server design, same fonts and khadi cards, indigo page), with green felt and rani pink for "whose turn it is".

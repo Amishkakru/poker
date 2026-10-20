@@ -11,7 +11,7 @@ const NAMES = ['Mira', 'Dev', 'Zoya', 'Kabir', 'Anaya', 'Rohan'].slice(0, PLAYER
 const seats = NAMES.map((_, i) => i);
 
 const tally = Object.fromEntries(NAMES.map((n) => [n, { wins: 0, chips: 0, vpip: 0, raises: 0, hands: 0 }]));
-let hands = 0, showdowns = 0, allIns = 0, pots = 0, multiway = 0, sidePots = 0, folded = 0, preflopEnds = 0;
+let hands = 0, showdowns = 0, allIns = 0, pots = 0, multiway = 0, sidePots = 0, preflopEnds = 0;
 const started = Date.now();
 
 for (let g = 1; g <= N; g++) {
