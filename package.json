@@ -33,7 +33,7 @@
     "simulate": "node scripts/simulate.js"
   },
   "dependencies": {
-    "ws": "^8.18.0"
+    "ws": "^8.22.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.5",
